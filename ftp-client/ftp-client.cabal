@@ -17,7 +17,7 @@ library
   exposed-modules:     Network.FTP.Client
   build-depends:       base >= 4.8 && < 5
                      , bytestring
-                     , network >=2.6.3.6 && <2.9
+                     , network >=3.0 && <3.2
                      , attoparsec >= 0.10
                      , connection >= 0.2 && < 0.4
                      , transformers
